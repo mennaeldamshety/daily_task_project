@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8"> 
+    <title>Daily Task Schedule</title>
+    <meta name="viewport" content="width = device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+     crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+  
+    
+</head>
+<body>
+<div class="container">
+ <h1>Select A Task.</h1>
+    <div class="task_container">
+        <div class="task_name" id="Break" style="background-color: #f7f779;"> Break</div>
+        <div class="task_name" id="Gym" style="background-color: #f68080;"> Gym</div>
+        <div class="task_name"id="Study" style="background-color: #faae7b;"> Study</div>
+        <div class="task_name" id="TV" style="background-color: #2a9d8f;"> TV</div>
+        <div class="task_name" id="Friends" style="background-color: #a8dadc;"> Friends</div>
+        <div class="task_name" id="Work" style="background-color: #bdb2ff;"> Work</div>
+        <div class="task_name" id="Food" style="background-color: darkseagreen;"> Food</div>
+        <div class="task_name" id="Shopping" style="background-color: palevioletred;"> Shopping</div>
+        <div class="task_name" id="Deselect_All"> Deselect All</div> 
+    </div>
+
+ <h3>Add Selected Task To The Schedule</h3>
+ <div class="Schedule_container">
+    <span class="corner"></span>
+    <div class="Part_Day">
+        <span class="time"> 8am <br> - <br> 12pm </span>
+        <div class="task"></div>
+        <div class="task"></div>
+        <div class="task"></div>
+        <div class="task"></div>
+        <div class="task"></div>
+       
+    </div>
+    <br>
+
+    <div class="Part_Day">
+        <span class="time"> 12pm <br> - <br> 2pm </span>
+        <div class="task"></div>
+        <div class="task"></div>
+        <div class="task"></div>
+        <div class="task"></div>
+        <div class="task"></div>
+       
+    </div>
+    <br>
+
+    <div class="Part_Day">
+        <span class="time"> 2pm <br> - <br> 6pm </span>
+        <div class="task"></div>
+        <div class="task"></div>
+        <div class="task"></div>
+        <div class="task"></div>
+        <div class="task"></div>
+        
+    </div>
+    <br>
+    <div class="Part_Day">
+        <span class="time"> 6pm <br> - <br> 9pm </span>
+        <div class="task"></div>
+        <div class="task"></div>
+        <div class="task"></div>
+        <div class="task"></div>
+        <div class="task"></div>
+        
+    </div>
+    <br>
+    <div class="Part_Day">
+        <span class="time"> 9pm <br> - <br> 11pm </span>
+        <div class="task"></div>
+        <div class="task"></div>
+        <div class="task"></div>
+        <div class="task"></div>
+        <div class="task"></div>
+        
+    </div>
+    <br>
+</div>
+<button class="delete_btn">Reset Schedule</button>
+<div class="pop-up_container">
+    <div class="pop-up">
+        <h4> Are You Sure You Want To Delete All The Tasks From Your Schedule ? </h4>
+        <div class="btn_container">
+            <div class="btn_answer" id="btn_yes">Yes</div>
+            <div class="btn_answer" id="btn_no">No</div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<script src="main.js"></script>
+</body>
+
+
+</html>
